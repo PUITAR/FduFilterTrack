@@ -1,0 +1,6 @@
+对比差异
+index.cpp utils.h search_memory_index.cpp
+
+index.cpp 写死了 std::string labels_file = "../data/yfcc100M/base.metadata.10M.spmat"; 需要写成参数传进去
+
+index.cpp 的load函数写死了 pq_prefix
